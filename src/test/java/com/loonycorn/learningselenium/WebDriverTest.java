@@ -18,7 +18,7 @@ public class WebDriverTest {
         //options.addArguments("--incognito");
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://omayo.blogspot.com/");
-        delay(5000);
+        delay(3000);
         driver.quit();
     }
 
